@@ -93,6 +93,8 @@ const getUnreadSmsMessageBoxPage = [
   ],
 ];
 
+const reboot = [[ACT.OP, "ACT_REBOOT"]];
+
 const performLogout = [[ACT.CGI, "cgi/logout"]];
 ```
 
